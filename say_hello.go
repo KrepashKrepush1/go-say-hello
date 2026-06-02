@@ -1,5 +1,5 @@
 package go_say_hello
 
-func SayHello() string {
-	return "nyoba modules ke 2 kalinya"
+func SayHello(name string) string {
+	return "nyoba modules ke 2 kalinya" + name
 }
